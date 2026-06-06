@@ -1,0 +1,13 @@
+patient_id,age_at_diagnosis,sex,primary_site,histology,stage,vital_status,is_advanced_stage,age_group_at_diagnosis
+P001,67,F,Breast,8500,II,Alive,False,65+
+P002,72,M,Lung,8140,IV,Dead,True,65+
+P003,54,F,Colon,8140,III,Alive,True,50-64
+P004,45,F,Breast,8500,I,Alive,False,Under 50
+P005,81,M,Prostate,8140,II,Alive,False,65+
+P006,59,F,Lung,8070,IV,Dead,True,50-64
+P007,63,M,Colon,8140,III,Alive,True,50-64
+P008,38,F,Breast,8520,,Alive,False,Under 50
+P009,91,M,Lung,8046,IV,Dead,True,65+
+P010,-5,F,Breast,8500,II,Alive,False,
+P011,70,F,Colon,8140,V,Alive,False,65+
+P012,67,F,Breast,8500,II,Alive,False,65+
