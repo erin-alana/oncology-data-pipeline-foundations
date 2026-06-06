@@ -1,1 +1,13 @@
-
+patient_id,age,sex,primary_site,histology,stage,vital_status
+P001,67,F,Breast,8500,II,Alive
+P002,72,M,Lung,8140,IV,Dead
+P003,54,F,Colon,8140,III,Alive
+P004,45,F,Breast,8500,I,Alive
+P005,81,M,Prostate,8140,II,Alive
+P006,59,F,Lung,8070,IV,Dead
+P007,63,M,Colon,8140,III,Alive
+P008,38,F,Breast,8520,,Alive
+P009,91,M,Lung,8046,IV,Dead
+P010,-5,F,Breast,8500,II,Alive
+P011,70,F,Colon,8140,V,Alive
+P012,67,F,Breast,8500,II,Alive
