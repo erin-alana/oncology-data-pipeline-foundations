@@ -9,8 +9,12 @@ def validate_data(df):
         "total_rows": len(df),
         "duplicate_patient_ids": df["patient_id"].duplicated().sum(),
         "missing_stage": df["stage"].isna().sum(),
-        "invalid_age": len(df[(df["age"] < 0) | (df["age"] > 120)]),
-        "invalid_stage": len(df[~df["stage"].isin(ALLOWED_STAGES) & df["stage"].notna()])
+        "invalid_age_at_diagnosis": len(
+            df[(df["age_at_diagnosis"] < 0) | (df["age_at_diagnosis"] > 120)]
+        ),
+        "invalid_stage": len(
+            df[~df["stage"].isin(ALLOWED_STAGES) & df["stage"].notna()]
+        )
     }
 
     return results
