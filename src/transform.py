@@ -6,8 +6,9 @@ PROCESSED_DATA_PATH = "data/processed/oncology_cleaned.csv"
 def transform_data(df):
     """Create derived oncology analytics fields."""
     df["is_advanced_stage"] = df["stage"].isin(["III", "IV"])
-    df["age_group"] = pd.cut(
-        df["age"],
+
+    df["age_group_at_diagnosis"] = pd.cut(
+        df["age_at_diagnosis"],
         bins=[0, 49, 64, 120],
         labels=["Under 50", "50-64", "65+"]
     )
