@@ -12,7 +12,7 @@ def main():
         COUNT(*) AS patient_count
     FROM patients
     GROUP BY stage
-    ORDER BY patient_count DESC
+    ORDER BY patient_count DESC;
     """
 
     results = pd.read_sql_query(query, conn)
