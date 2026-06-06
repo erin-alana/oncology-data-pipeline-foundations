@@ -1,4 +1,4 @@
-patient_id,age,sex,primary_site,histology,stage,vital_status
+patient_id,age_at_diagnosis,sex,primary_site,histology,stage,vital_status
 P001,67,F,Breast,8500,II,Alive
 P002,72,M,Lung,8140,IV,Dead
 P003,54,F,Colon,8140,III,Alive
