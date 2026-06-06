@@ -28,33 +28,34 @@ The project is designed to mirror the types of data quality and readiness challe
 
 ## Project Structure
 
+```text
 oncology-data-pipeline-foundations/
-
+│
 ├── data/
 │   ├── raw/
 │   ├── processed/
 │   └── errors/
-
+│
 ├── docs/
 │   ├── data_dictionary.md
 │   └── data_risk_review.md
-
+│
 ├── database/
-
+│
 ├── outputs/
-
+│
 ├── sql/
 │   └── schema.sql
-
+│
 ├── src/
 │   ├── ingest.py
 │   ├── validate.py
 │   ├── transform.py
 │   └── load_sqlite.py
-
+│
 ├── README.md
-
 └── requirements.txt
+```
 
 ---
 
