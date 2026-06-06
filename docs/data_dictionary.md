@@ -10,7 +10,7 @@ Used to uniquely identify each patient record.
 
 ---
 
-## age
+## age_at_diagnosis
 
 Description:
 Patient age at diagnosis.
