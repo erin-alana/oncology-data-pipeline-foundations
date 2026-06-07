@@ -1,0 +1,4 @@
+patient_id,age_at_diagnosis,sex,primary_site,histology,stage,vital_status
+P008,38,F,Breast,8520,,Alive
+P010,-5,F,Breast,8500,II,Alive
+P011,70,F,Colon,8140,V,Alive
