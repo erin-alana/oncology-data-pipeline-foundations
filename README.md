@@ -117,3 +117,37 @@ Planned future projects include:
 ## Status
 
 In Development
+
+---
+
+## Current Pipeline
+
+The current pipeline demonstrates a simplified oncology data workflow:
+
+1. Ingest raw oncology data
+2. Validate data quality
+3. Quarantine invalid records
+4. Transform and enrich valid records
+5. Load analytics-ready data into SQLite
+6. Generate SQL-based summary reports
+7. Create visualizations
+
+## Current Outputs
+
+### Validation Outputs
+
+- `data/errors/oncology_validation_errors.csv`
+
+### Analytics Outputs
+
+- `outputs/stage_summary.csv`
+- `outputs/stage_distribution.png`
+
+## Future Enhancements
+
+- Replace mock data with SEER data
+- Expand oncology-specific validation rules
+- Add biomarker support
+- Build dashboard visualizations
+- Implement NLP-assisted abstraction workflows
+- Add human-in-the-loop review capabilities
